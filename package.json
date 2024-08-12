@@ -5,14 +5,14 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:server1": "nodemon Q1/server.js",
-    "start:server2": "nodemon Q2/server.js",
-    "start:server3": "nodemon Q3/server.js",
-    "start:server4": "nodemon Q4/server.js",
-    "start:q1-script": "nodemon Q1/Q1-script.js",
-    "start:numVisits": "nodemon Q2/numOfVisits.js",
-    "start:phone": "nodemon Q3/phoneChecker.js",
-    "start:q4-script": "nodemon Q4/Q4-script.js"
+    "start:server1": "node Q1/server.js",
+    "start:server2": "node Q2/server.js",
+    "start:server3": "node Q3/server.js",
+    "start:server4": "node Q4/server.js",
+    "start:q1-script": "node Q1/Q1-script.js",
+    "start:numVisits": "node Q2/numOfVisits.js",
+    "start:phone": "node Q3/phoneChecker.js",
+    "start:q4-script": "node Q4/Q4-script.js"
   },
   "keywords": [],
   "author": "Lola Arroyo",
